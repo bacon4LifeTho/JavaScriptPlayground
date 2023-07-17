@@ -1,9 +1,9 @@
-let numberOfChipsIHave = 0;
-let numberOfGranolaBarsIHave = 0;
-let numberOfCandiesIHave = 0;
-let numberOfWaterBottlesIHave = 0;
+let numberOfChipsIHave = 50;
+let numberOfGranolaBarsIHave = 1;
+let numberOfCandiesIHave = 700;
+let numberOfWaterBottlesIHave = 7;
 
-let total = 0;
+let total = 758;
 
 function addChips() {
   numberOfChipsIHave++
@@ -31,7 +31,7 @@ function addWaterBottles() {
 
 // Change the costs of the snacks to do new math!
 function calculateTotal() {
-  total = 1.50 * numberOfChipsIHave + 3.00 * numberOfGranolaBarsIHave + 0.75 * numberOfCandiesIHave + 3.50 * numberOfWaterBottlesIHave
+  total = 0.50 * numberOfChipsIHave + 3.00 * numberOfGranolaBarsIHave + 0.75 * numberOfCandiesIHave + 3.50 * numberOfWaterBottlesIHave
 }
 
 function drawSnackCounts() {

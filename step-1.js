@@ -1,4 +1,4 @@
-let howManyTimes = 2;
+let howManyTimes = 700;
 
 function drawFish() {
   let template = ''
